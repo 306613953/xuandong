@@ -67,6 +67,8 @@ GTV  https://958.xqhjej.com
 #^https?://120play\.zihzot\.com/videos2/\w{32}/\w{32}\.m3u8\?auth_key=\d+-\d+-\d+-[\w-]{32}&v=\d+$ url script-request-header https://raw.githubusercontent.com/306613953/xuandong/main/m3u8.js
 #通用
 ^https?://(\w+\.vzcnqmr\.cn)/(\w+)/\w{32}/\w{32}\.m3u8\? url script-request-header https://raw.githubusercontent.com/306613953/xuandong/main/m3u8.js
+#pilipili
+^https?://(\w+\.snowing\.ren)/(\w+)/\w{32}/\w{32}\.m3u8\? url script-request-header https://raw.githubusercontent.com/306613953/xuandong/main/m3u8.js
 #91制片厂
 ^https?://(\w+\.jhdfeyq\.cn)/(\w+)/\w{32}/\w{32}\.m3u8\? url script-request-header https://raw.githubusercontent.com/306613953/xuandong/main/m3u8.js
 [mitm] 
